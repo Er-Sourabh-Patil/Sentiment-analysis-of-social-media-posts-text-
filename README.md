@@ -26,8 +26,8 @@ The project consists of two main components:
 ## Project Structure
 Sentiment-analysis-of-social-media-reviews/
 ├── data/ # Dataset directory  
-- │ ├── raw/ # Original dataset
-- │ └── processed/ # Cleaned and preprocessed data
+│ ├── raw/ # Original   
+│ └── processed/ # Cleaned and preprocessed data  
 - ├── models/ # Saved trained models and vectorizers
 - │ ├── classifier.pkl
 - │ └── tfidf_vectorizer.pkl
