@@ -7,8 +7,8 @@ The project consists of two main components:
 2.A Flask web application that provides a user-friendly interface for real-time sentiment             prediction.
 
 ## Features
-### Text Preprocessing Pipeline: Cleans and prepares raw social media text by removing noise (URLs, mentions, special characters), handling contractions, and performing tokenization.
-### Multiple ML Model Support: Implements and compares different classification algorithms (Logistic Regression, Naive Bayes, etc.).
-### Real-Time Prediction: Web interface for instant sentiment analysis of user-input text.
-### Model Persistence: Trained models are saved and loaded for repeated use without retraining.
-### Evaluation Metrics: Provides detailed performance reports (accuracy, precision, recall, F1-score, confusion matrix).
+ Text Preprocessing Pipeline: Cleans and prepares raw social media text by removing noise (URLs, mentions, special characters), handling contractions, and performing tokenization.
+ Multiple ML Model Support: Implements and compares different classification algorithms (Logistic Regression, Naive Bayes, etc.).
+ Real-Time Prediction: Web interface for instant sentiment analysis of user-input text.
+ Model Persistence: Trained models are saved and loaded for repeated use without retraining.
+ Evaluation Metrics: Provides detailed performance reports (accuracy, precision, recall, F1-score, confusion matrix).
