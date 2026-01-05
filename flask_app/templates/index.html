@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sentiment Analysis</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; background: #f2f2f2; }
+    h1 { color: #333; }
+    textarea { width: 100%; height: 150px; margin-top: 1rem; }
+    input[type="submit"] { padding: 10px 20px; margin-top: 1rem; }
+    .result { margin-top: 2rem; font-size: 1.2rem; }
+  </style>
+</head>
+<body>
+<h1><b>Sentiment Analysis </b></h1>
+  <form method="POST">
+    <label for="user_input">Enter your text:</label>
+    <textarea name="user_input" required></textarea>
+    <br>
+    <input type="submit" value="Analyze">
+  </form>
+
+  {% if prediction %}
+    <div class="result">
+      <strong>Prediction:</strong> {{ prediction }}<br>
+      <strong>Score:</strong> {{ score }}
+    </div>
+  {% endif %}
+</body>
+</html>
