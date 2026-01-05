@@ -26,8 +26,8 @@ The project consists of two main components:
 ## Project Structure
 Sentiment-analysis-of-social-media-reviews/  
 ├── data/ # Dataset directory  
-│ ├── raw/ # Original   
-│ └── processed/ # Cleaned and preprocessed data   
+│ ├── raw/ # Original dataset  
+│ └── processed/ # Cleaned and preprocessed data  
 ├── models/ # Saved trained models and vectorizers  
 │ ├── classifier.pkl  
 │ └── tfidf_vectorizer.pkl  
@@ -44,7 +44,6 @@ Sentiment-analysis-of-social-media-reviews/
 ├── requirements.txt # Python dependencies  
 ├── main.py # Optional unified entry point  
 └── README.md # Project documentation  
-
 
 ## Dataset Information
 The model is trained on a curated dataset of **social media reviews** collected from platforms like Twitter, Facebook, and Reddit. The dataset includes:
