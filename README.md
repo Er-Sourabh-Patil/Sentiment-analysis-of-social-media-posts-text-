@@ -24,7 +24,7 @@ The project consists of two main components:
 - **Version Control**: Git, GitHub
 
 ## Project Structure
-Sentiment-analysis-of-social-media-reviews/
+**Sentiment-analysis-of-social-media-reviews/
 ├── data/ # Dataset directory
 │ ├── raw/ # Original dataset
 │ └── processed/ # Cleaned and preprocessed data
@@ -43,7 +43,7 @@ Sentiment-analysis-of-social-media-reviews/
 ├── notebooks/ # Jupyter notebooks for EDA and experimentation
 ├── requirements.txt # Python dependencies
 ├── main.py # Optional unified entry point
-└── README.md # Project documentation
+└── README.md # Project documentation**
 
 
 ## Dataset Information
