@@ -24,26 +24,26 @@ The project consists of two main components:
 - **Version Control**: Git, GitHub
 
 ## Project Structure
-**Sentiment-analysis-of-social-media-reviews/
-├── data/ # Dataset directory
-│ ├── raw/ # Original dataset
-│ └── processed/ # Cleaned and preprocessed data
-├── models/ # Saved trained models and vectorizers
-│ ├── classifier.pkl
-│ └── tfidf_vectorizer.pkl
-├── src/ # Source code for ML pipeline
-│ ├── preprocess.py # Text cleaning and preprocessing functions
-│ ├── train_model.py # Model training and evaluation script
-│ └── predict.py # Script for making predictions
-├── flask_app/ # Flask web application
-│ ├── static/ # CSS, JS, images
-│ ├── templates/ # HTML templates
-│ │ └── index.html
-│ └── app.py # Main Flask application file
-├── notebooks/ # Jupyter notebooks for EDA and experimentation
-├── requirements.txt # Python dependencies
-├── main.py # Optional unified entry point
-└── README.md # Project documentation**
+Sentiment-analysis-of-social-media-reviews/
+- ├── data/ # Dataset directory
+- │ ├── raw/ # Original dataset
+- │ └── processed/ # Cleaned and preprocessed data
+- ├── models/ # Saved trained models and vectorizers
+- │ ├── classifier.pkl
+- │ └── tfidf_vectorizer.pkl
+- ├── src/ # Source code for ML pipeline
+- │ ├── preprocess.py # Text cleaning and preprocessing functions
+- │ ├── train_model.py # Model training and evaluation script
+- │ └── predict.py # Script for making predictions
+- ├── flask_app/ # Flask web application
+- │ ├── static/ # CSS, JS, images
+- │ ├── templates/ # HTML templates
+- │ │ └── index.html
+- │ └── app.py # Main Flask application file
+- ├── notebooks/ # Jupyter notebooks for EDA and experimentation
+- ├── requirements.txt # Python dependencies
+- ├── main.py # Optional unified entry point
+- └── README.md # Project documentation
 
 
 ## Dataset Information
